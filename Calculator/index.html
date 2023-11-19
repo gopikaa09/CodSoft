@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <img src="./images/mockup.png" alt="" srcset="">
+    </div>
+    <div class="container">
+        <form action="" name="form1">
+            <input type="text" name="answer" class="answer" placeholder="0"/><br>
+
+            <input type="button" value="1" class="number" onclick = "form1.answer.value += '1'">
+            <input type="button" value="2" class="number" onclick = "form1.answer.value += '2'">
+            <input type="button" value="3" class="number" onclick = "form1.answer.value += '3'">
+            <input type="button" value="+" class="symbol" onclick = "form1.answer.value += '+'"><br>
+
+            <input type="button" value="4" class="number" onclick = "form1.answer.value += '4'">
+            <input type="button" value="5" class="number" onclick = "form1.answer.value += '5'">
+            <input type="button" value="6" class="number" onclick = "form1.answer.value += '6'">
+            <input type="button" value="-" class="symbol" onclick = "form1.answer.value += '-'"><br>
+
+            <input type="button" value="7" class="number" onclick = "form1.answer.value += '7'">
+            <input type="button" value="8" class="number" onclick = "form1.answer.value += '8'">
+            <input type="button" value="9" class="number" onclick = "form1.answer.value += '9'">
+            <input type="button" value="*" class="symbol" onclick = "form1.answer.value += '*'"><br>
+
+            <input type="button" value="/" class="symbol" onclick = "form1.answer.value += '/'">
+            <input type="button" value="0" class="number" onclick = "form1.answer.value += '0'">
+            <input type="button" value="." class="symbol" onclick = "form1.answer.value += '.'">
+            <input type="button" value="=" class="equal" onclick = "calulate()"><br>
+
+            <input type="reset">
+
+        </form>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
